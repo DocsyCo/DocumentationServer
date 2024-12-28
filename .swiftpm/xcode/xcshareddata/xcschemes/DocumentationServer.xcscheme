@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1610"
+   LastUpgradeVersion = "1620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -39,32 +39,6 @@
                BlueprintName = "DocumentationServerTests"
                ReferencedContainer = "container:">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "AppTests">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/addRevision()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/createBundle()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/getBundle()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/getRevision()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/listBundles()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/removeRevision()">
-               </Test>
-               <Test
-                  Identifier = "RepositoryAPITests/searchTest(term:shouldFind:)">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
