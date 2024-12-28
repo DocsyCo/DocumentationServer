@@ -12,8 +12,7 @@ let package = Package(
         .library(name: "DocumentationServerClient", targets: ["DocumentationServerClient"])
     ],
     dependencies: [
-        .package(path: "../Modules/DocumentationKit"),
-        
+        .package(url: "https://github.com/docsyco/DocumentationKit", branch: "main"),
         // Server
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.3.0"),
         .package(url: "https://github.com/hummingbird-project/hummingbird.git", from: "2.0.0"),
