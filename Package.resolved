@@ -1,5 +1,5 @@
 {
-  "originHash" : "0b6b1d40dca6779054910b15d765230d9c584902925f429426fb5696b8f8e55d",
+  "originHash" : "51a79b2a3050e7df7c181b089e750e83a4fd85f6bf3214a9f88cd430c6efd724",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "2119f0d9cc1b334e25447fe43d3693c0e60e6234",
         "version" : "1.24.0"
+      }
+    },
+    {
+      "identity" : "documentationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/docsyco/DocumentationKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5251091b5e4ae620957faa1db2371dc904e6ebf8"
       }
     },
     {
